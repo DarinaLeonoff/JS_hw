@@ -76,7 +76,11 @@ function easyCalc(a, b){   // 5) Реализовать основные 4 ар�
         } else if(a > 0 && b < 0) { 
         res = a + b;
         } else{
-        res = a / b;
+            if(b !== 0){
+                res = a / b;
+            } else{
+                console.log("Sory, i can't do this!");
+            }
         } 
         return res;
 }
