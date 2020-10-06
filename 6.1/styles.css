@@ -1,0 +1,22 @@
+.mini-block {
+    width: max-content;
+    margin: 0 auto;
+}
+.img {
+    width: 100px;
+    height: 100px;
+}
+button {
+    background-color: transparent;
+    border: none;
+}
+.big-photo {
+    margin: 0 auto;
+}
+.hidden {
+    display: none;
+}
+
+h2 {
+    text-align: center;
+}
