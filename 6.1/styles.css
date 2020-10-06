@@ -20,3 +20,27 @@ button {
 h2 {
     text-align: center;
 }
+
+.slider {
+    width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.title {
+    flex-shrink: 0;
+}
+
+.slider-photo {
+    width: 600px;
+}
+
+.arrow {
+    font-size: 50px;
+}
+button:active,
+button:focus {
+    outline: none;
+    color: red;
+}
