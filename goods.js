@@ -1,6 +1,6 @@
 var goods = [
     {
-        'title': 'bRANDED sHOE',
+        'head': 'bRANDED sHOE',
         'img': 'img/shoes.jpg',
         'price': 200,
         'count': 1
