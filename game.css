@@ -1,0 +1,32 @@
+.game-table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+.game-table-cell {
+    background-color: black;
+    border: 1px solid white;
+    box-sizing: border-box;
+    width: 20px;
+    height: 20px;
+}
+.snake-unit {
+    background-color: white;
+}
+
+.food-unit {
+    background-color: green;
+}
+
+.bomb-unit {
+    background-color: red;
+}
+.buttons {
+    margin: 0 auto;
+    width: max-content;
+    margin-top: 20px;
+}
+
+.score {
+    width: max-content;
+    margin: 0 auto;
+}
